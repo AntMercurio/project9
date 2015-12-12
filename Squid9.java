@@ -48,28 +48,28 @@ void help() {
   background(0);
   textSize(25);
   fill(255,0,0);
-  text( "Press 0 key to send 1st squid to the bottom.", 50, 50);
-  text( "Press 1 key to send 2nd squid to the bottom.", 50, 80);
-  text( "Press 2 key to send 3rd squid to the bottom.", 50, 110);
-  text( "Press 3 key to send 4th squid to the bottom.", 50, 140);
-  text( "Press 4 key to send 5th squid to the bottom.", 50, 170);
+  text( "Press 0 key to send 1st squid to the bottom.", 150, 50);
+  text( "Press 1 key to send 2nd squid to the bottom.", 150, 80);
+  text( "Press 2 key to send 3rd squid to the bottom.", 150, 110);
+  text( "Press 3 key to send 4th squid to the bottom.", 150, 140);
+  text( "Press 4 key to send 5th squid to the bottom.", 150, 170);
   fill(128,0,0);
   text( "Cheat Codes----------", 50,200);
-  text( "Press h key to send highest squid to the bottom.", 50,230 );
-  text( "Press b key to send all squids to the bottom.", 50, 260);
-  text( "Press t key to send all squids to the surface.", 50, 290);
+  text( "Press h key to send highest squid to the bottom.", 150,230 );
+  text( "Press b key to send all squids to the bottom.", 150, 260);
+  text( "Press t key to send all squids to the surface.", 150, 290);
   fill(0,255,255);
   text( "Sorting", 50,320); 
-  text( "X key sorts the squids in order of position (x).", 50,350);
-  text( "Y key sorts the squids in order of height (y).", 50,380);
-  text( "S key sorts the squids in order of speed (dy).", 50,410);
-  text( "L key sorts the squids in order of legs.", 50,440);
-  text( "B key sorts the boats in order of position (x).", 50,470);
-  text( "D key sorts the boats in order of speed (dx).", 50,500);
-  text( "F key sorts the boats in order of greatest cargo.", 50,530);
+  text( "X key sorts the squids in order of position (x).", 150,350);
+  text( "Y key sorts the squids in order of height (y).", 150,380);
+  text( "S key sorts the squids in order of speed (dy).", 150,410);
+  text( "L key sorts the squids in order of legs.", 150,440);
+  text( "B key sorts the boats in order of position (x).", 150,470);
+  text( "D key sorts the boats in order of speed (dx).", 150,500);
+  text( "F key sorts the boats in order of greatest cargo.", 150,530);
   fill(255);
-  text( "Press any capital letter to see Statistics.", 50,560);
-  text( "Press any key to exit." , 50,590); 
+  text( "Press any capital letter to see Statistics.", 150,560);
+  text( "Press any key to exit." , 150,590); 
   
   
 }
